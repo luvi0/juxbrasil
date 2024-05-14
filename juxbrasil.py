@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 import requests
 import json
-import io
+import io 
+import openpyxl
 
 #colocar site do TJ 
 TribunaldeJustiçadoAcre	= 'https://api-publica.datajud.cnj.jus.br/api_publica_tjac/_search'
