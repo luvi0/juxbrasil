@@ -6,7 +6,7 @@ import json
 import io 
 import openpyxl
 
-#colocar site do TJ 
+#1colocar site do TJ 
 TribunaldeJustiçadoAcre	= 'https://api-publica.datajud.cnj.jus.br/api_publica_tjac/_search'
 TribunaldeJustiçadeAlagoas	= 'https://api-publica.datajud.cnj.jus.br/api_publica_tjal/_search'
 TribunaldeJustiçadoAmazonas =	'https://api-publica.datajud.cnj.jus.br/api_publica_tjam/_search'
