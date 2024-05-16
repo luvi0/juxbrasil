@@ -35,8 +35,7 @@ TribunaldeJustiçadeSergipe =	'https://api-publica.datajud.cnj.jus.br/api_public
 TribunaldeJustiçadeSãoPaulo	= 'https://api-publica.datajud.cnj.jus.br/api_publica_tjsp/_search'
 TribunaldeJustiçadoTocantins	= 'https://api-publica.datajud.cnj.jus.br/api_publica_tjto/_search'
 
-
-
+#páginas
 def Dados_de_Processo():
     st.header('Dados de Processos', divider='red')
     st.write(
@@ -102,8 +101,6 @@ def Dados_de_Processo():
     NumProcesso = int(NumProcesso)
     st.write(NumProcesso)
     if st.button('Solicitar dados'):
-        url = 'https://api-publica.datajud.cnj.jus.br/api_publica_trf1/_search' #'https://api-publica.datajud.cnj.jus.br/api_publica_tjac/_search'
- 
         api_key = "APIKey cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRQdw=="
 
         # Define o payload
